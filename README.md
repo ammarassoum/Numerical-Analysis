@@ -83,8 +83,8 @@ Solving initial value problems $y' = f(t, y)$.
 ### C Implementation
 Navigate to the desired directory and compile using `gcc`:
 ```bash
-cd C/Nonlinear\ equations/Newton-Raphson
-gcc main.c -o newton -lm
+cd "C/Nonlinear equations/Newton-Raphson"
+gcc newton.c -o newton -lm
 ./newton
 ```
 
