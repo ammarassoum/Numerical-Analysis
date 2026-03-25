@@ -48,7 +48,6 @@ Approximating derivatives using finite difference formulas.
 
 ### 5. Numerical Integration
 Methods for calculating the definite integral of a function.
-Here are short descriptions for these numerical integration methods:
 
 *   **Trapezoidal Rule:** A simple method that approximates the area under a curve by dividing it into trapezoids, connecting data points with straight-line segments.
 *   **Simpson’s 1/3 Rule:** A more accurate approach that fits second-order parabolas through groups of three equally spaced points to estimate the integral.
@@ -60,7 +59,6 @@ Here are short descriptions for these numerical integration methods:
 
 ### 6. Ordinary Differential Equations (ODE)
 Solving initial value problems $y' = f(t, y)$.
-Here are short descriptions for these methods of solving Ordinary Differential Equations (ODEs):
 
 *   **Standard Euler’s Method:** The simplest first-order numerical procedure for solving ODEs by taking small steps in the direction of the local tangent.
 *   **Improved Euler (Heun’s Method):** A predictor-corrector approach that uses the average of the slopes at the start and end of a step to achieve second-order accuracy.
@@ -75,7 +73,7 @@ Here are short descriptions for these methods of solving Ordinary Differential E
 | Language | Requirements |
 | :--- | :--- |
 | **C** | `gcc` or any C compiler or IDE (e.g., MinGW, Clang, CodeBlocks, OnlineGDB) |
-| **MATLAB** | R2020a or newer | (or GNU Octave)
+| **MATLAB** | R2020a or newer (or **GNU Octave**) | 
 | **Python** | Python 3.x, `numpy`, `matplotlib`, `scipy` |
 
 ---
